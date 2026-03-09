@@ -17,3 +17,7 @@ If you don't have a publish command in mind, just set it to: "echo hello".
 
 ## How does media work?
 Whenever you use the "image upload" function in 11tyCMS, it will put that image inside the media folder you specified. In this templates case, that is: "content/media"
+
+## How do I handle favicons?
+11tyCMS looks for your site's favicon in the media folder. This will likely change in future, but for now, whatever file is named: "favicon" with the appropriate extensions (png, gif, ico and a few others) will be recognised as the favicon.
+
